@@ -1,5 +1,6 @@
 FROM nginx
 RUN apt-get update
+RUN apt-get -y upgrade
 RUN apt-get -y install curl
 RUN apt-get -y install dnsutils
 RUN apt-get -y install wget
